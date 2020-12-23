@@ -126,9 +126,67 @@ body {
   margin-left: 94px;
 }
 
+.services {
+  width: 1600px;
+  height: 790px;
+  padding: 100px 164px 151px 265px;
+  background-color: #70bfff;;
+}
+.services__conteiner {
+  display: flex;
+}
+.services__button--container {
+  display: inline-block;
+  margin-left: 65px;
+  margin-top: 39px;
+  margin-right: 70px;
+}
+.services__button {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  border: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.services__button__p {
+  margin-top: 35px;
+  justify-content: center;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: bold;
+  color: #262626;
+}
+.delivery {
+  margin-top: 20px;
+}
+.p__border {
+  border-right: 3px solid #9d9d9d;
+  width: 300px;
+  height: 100px;
+  margin-top: -1px;
+}
+.svg {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 47px;
+  height: 47px;
+  
+}
 
-
-
+.services__img__text--block {
+  margin-left: 132px;
+}
+.services__img--text {
+  width: 539px;
+  height: 67px;
+  font-family: Raleway;
+  font-size: 85px;
+  font-weight: bold;
+  text-align: right;
+  color: #ffffff;
+  margin-top: -350px;
+  margin-left: -50px;
+}
 
 
 .blog {
