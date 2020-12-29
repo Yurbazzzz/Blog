@@ -126,11 +126,12 @@ body {
   margin-left: 94px;
 }
 
+
 .services {
-  width: 1600px;
   height: 790px;
   padding: 100px 164px 151px 265px;
-  background-color: #70bfff;;
+  background-color: #70bfff;
+  text-align: center;
 }
 .services__conteiner {
   display: flex;
@@ -186,6 +187,67 @@ body {
   color: #ffffff;
   margin-top: -350px;
   margin-left: -50px;
+}
+
+
+
+.Subscribe__container {
+  background-image: url(../images/subscribe.png);
+  background-repeat: no-repeat;
+  height: 500px;
+  padding-top: 145px;
+}
+
+.Subscribe__container__title {
+  font-size: 40px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  margin-left: 167px;
+} 
+
+.Subscribe__container__subtitle {
+  width: 572px;
+  height: 50px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+  margin-top: 30px;
+  margin-left: 167px;
+}
+
+.Subscribe__input {
+  width: 571px;
+  height: 56px;
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 167px;
+  border: solid 1px #000;
+}
+
+.Subscribe__input::placeholder {
+  width: 100px;
+  color: #262626;
+}
+
+.Subscribe__input:focus {
+  background-color: white;
+  border: solid 1px #000;
+}
+
+.Subscribe__container__button {
+  width: 170px;
+  height: 55px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0,0,0,0.5));
+  background-color: #96b92c;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+  margin-left: -150px;
 }
 
 
@@ -281,7 +343,6 @@ body {
 .button--blog {
   width: 200px;
   height: 55px;
-  margin: 50px 115px 0;
   padding: 15px 43px;
   background-color: #f72b3b;
   font-family: Raleway;
@@ -290,6 +351,7 @@ body {
   margin-top: 50px;
   margin-left: 650px;
   margin-bottom: 120px;
+  position: relative;
 }
 
 button:hover {
@@ -302,6 +364,7 @@ button:hover {
   width: 1980px;
   height: 900px;
   background-image: url(../images/contact-bg.png);
+  background-repeat: no-repeat;
 }
 .form__content {
   padding-top: 100px;
@@ -401,7 +464,7 @@ input:focus::placeholder {
 
 
 footer {
-  width: 1600px;
+  
   height: 90px;
   background-color: #262626;
   display: flex;
