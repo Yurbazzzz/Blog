@@ -206,6 +206,67 @@ body {
 .Gallery__container {
   height: 1578px;
   background-color: #FFE92F;
+  padding-top: 100px;
+}
+
+.Gallery__title {
+  font-size: 90px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 700;
+  font-family: "Raleway";
+  margin-left: 600px;
+}
+
+.Gallery__subtitle {
+  width: 630px;
+  height: 69px;
+  font-size: 17px;
+  line-height: 27px;
+  color: #262626;
+  font-weight: 300;
+  font-family: "Raleway";
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 465px;
+}
+
+.Gallery__photo__container {
+  margin-top: 50px;
+  margin-left: 165px;
+  display: inline-block;
+}
+
+.top {
+  display: flex;
+}
+
+.top--right {
+  display: block;
+}
+
+.bottom {
+  display: flex;
+}
+
+.Gallery__photo {
+  margin: 10px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+}
+
+.Gallery__photo__container__button {
+  width: 200px;
+  height: 55px;
+  filter: drop-shadow(0px 2px 2.5px rgba(0, 0, 0, 0.5));
+  background-color: #5585a2;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 300;
+  font-family: "Raleway";
+  margin-top: 55px;
+  margin-left: 650px;
+  margin-bottom: 120px;
 }
 
 .Subscribe__container {

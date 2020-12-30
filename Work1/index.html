@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Cahee</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -13,8 +13,8 @@
 </head>
 
 <body>
-  <header>
 
+  <header>
     <section class="header" >
       <div class="container">
         <div class="header">
@@ -39,6 +39,7 @@
       </div>
     </section>
   </header>
+
   <main>
 
     <section class="aboutUs">
@@ -97,21 +98,26 @@
           ut aliquip ex ea commodo consequat.
         </p>
         <div class="Gallery__photo__container">
-          <div>
+          <div class="top">
             <div>
-              <img src="./images/gal-1.png" alt="gal">
+              <img src="./images/gal-1.png" alt="gal" class="Gallery__photo">
             </div>
-            <div>
-              <img src="./images/gal-2.png" alt="gal">
-              <img src="./images/gal-3.png" alt="gal">
+            <div class="top--right">
+              <div>
+                <img src="./images/gal-2.png" alt="gal" class="Gallery__photo">
+              </div>
+              <div>
+                <img src="./images/gal-3.png" alt="gal" class="Gallery__photo">
+              </div>
             </div>
-          </div> 
-          <div>
-            <img src="./images/gal-4.png" alt="gal">
-            <img src="./images/gal-5.png" alt="gal">
-          </div>
+            <br>
+            </div> 
+            <div class="bottom">
+              <img src="./images/gal-4.png" alt="gal" class="Gallery__photo">
+              <img src="./images/gal-5.png" alt="gal" class="Gallery__photo">
+            </div>
         </div>
-        <button></button>
+        <button class="Gallery__photo__container__button">VIEW MORE</button>
       </div>
     </section>
 
@@ -202,11 +208,13 @@
     </section>
 
   </main>
+  
   <footer>
     <p class="footer__p">© 2015 Company. All right reserved.</p>
     <img src="./images/logo-small.png" alt="logo-small" class="footer__img">
     <p class="footer__p--2"> Made with <span class="footer__span">love</span> by Auskteez </p>
   </footer>
+
 </body>
 
 </html>
