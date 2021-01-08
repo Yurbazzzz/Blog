@@ -20,12 +20,12 @@
         <div class="header">
           <div class="logo"> <img src="./images/logo-small.png" alt="logo"> </div>
           <nav class="nav">                               
-            <a href="" class="a__tittle">HOME</a>
-            <a href="" class="a__tittle">ABOUT</a>
-            <a href="" class="a__tittle">SERVICES</a>
-            <a href="" class="a__tittle">GALLERY</a>
-            <a href="" class="a__tittle">BLOG</a>
-            <a href="" class="a__tittle">CONTACT</a>
+            <a href="#" class="a__tittle">HOME</a>
+            <a href="#aboutUs" class="a__tittle">ABOUT</a>
+            <a href="#services" class="a__tittle">SERVICES</a>
+            <a href="#Gallery" class="a__tittle">GALLERY</a> 
+            <a href="#blog" class="a__tittle">BLOG</a>
+            <a href="#Contact" class="a__tittle">CONTACT</a>
           </nav>
         </div>
         <div class="header__content"> 
@@ -42,9 +42,9 @@
 
   <main>
 
-    <section class="aboutUs">
+    <section class="aboutUs" id="aboutUs">
       <div class="container">
-        <div class="aboutUs">
+        <div class="aboutUs__conteiner">
           <div class="aboutUs__img"> <img src="./images/img.png" alt="img" class="aboutUs__img--img"> </div>
           <div class="aboutUs--content">
             <h1 class="aboutUs--content__h1">About Us</h1>
@@ -62,7 +62,7 @@
       </div>
     </section>
 
-    <section class="services">
+    <section class="services" id="services">
       <div class="services__conteiner">
         <div class="services__button--container">
           <button class="services__button">
@@ -89,14 +89,16 @@
       </div>
     </section>
 
-    <section class="Gallery">
+    <section class="Gallery"  id="Gallery">
       <div class="Gallery__container">
-        <h2 class="Gallery__title">Gallery </h2>
-        <p class="Gallery__subtitle">Consectetur adipisicing elit, sed do eiusmod tempor 
-          incididunt ut labore et dolore magna aliqua. Ut enim ad 
-          minim veniam, quis nostrud exercitation ullamco laboris nisi 
-          ut aliquip ex ea commodo consequat.
-        </p>
+        <div class="gallery__name">
+          <h2 class="Gallery__title">Gallery </h2>
+          <p class="Gallery__subtitle">Consectetur adipisicing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad 
+            minim veniam, quis nostrud exercitation ullamco laboris nisi 
+            ut aliquip ex ea commodo consequat.
+          </p>
+        </div>
         <div class="Gallery__photo__container">
           <div class="top">
             <div>
@@ -117,11 +119,11 @@
               <img src="./images/gal-5.png" alt="gal" class="Gallery__photo">
             </div>
         </div>
-        <button class="Gallery__photo__container__button">VIEW MORE</button>
+        <button class="Gallery__photo__button">VIEW MORE</button>
       </div>
     </section>
 
-    <section class="Subscribe">
+    <section class="Subscribe"  id="Subscribe">
       <div class="Subscribe__container">
         <h1 class="Subscribe__container__title">Subscribe To Us</h1>
         <p class="Subscribe__container__subtitle">
@@ -135,7 +137,7 @@
       </div>
     </section>
 
-    <section class="blog">
+    <section class="blog" id="blog">
       <div class="container">
         <h2 class="title text-center">Blog</h2>
         <p class="subtitle">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
@@ -179,7 +181,7 @@
       <button class="button--blog">VIEW MORE</button>
     </section>
 
-    <section class="form">
+    <section class="Contact"  id="Contact">
         <div class="form__content">
           <div class="form__name">
             <h1 class="form__name--h1">Contact</h1>
@@ -196,12 +198,18 @@
               </form>
             </div>
             <div class="form__contact">
-              <h3 class="form__contact--title">ADDRESS</h3>
-              <p class="form__contact--subtitle">123 City name, Street, City, Country</p>
-              <h3 class="form__contact--title">EMAIL</h3>
-              <p class="form__contact--subtitle">cahee@domain.com</p>
-              <h3 class="form__contact--title">PHONE</h3>
-              <p class="form__contact--subtitle">+012 345 6789</p>
+              <div class="form__contact__line">
+                <h3 class="form__contact--title">ADDRESS</h3>
+                <p class="form__contact--subtitle">123 City name, Street, City, Country</p>
+              </div>
+              <div class="form__contact__line">
+                <h3 class="form__contact--title">EMAIL</h3>
+                <p class="form__contact--subtitle">cahee@domain.com</p>
+              </div>
+              <div class="form__contact__line"> 
+                <h3 class="form__contact--title">PHONE</h3>
+                <p class="form__contact--subtitle">+012 345 6789</p>
+              </div>
             </div>
           </div>
         </div>
